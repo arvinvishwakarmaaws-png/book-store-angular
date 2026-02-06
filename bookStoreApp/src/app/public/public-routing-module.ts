@@ -8,7 +8,7 @@ import { BookDetails } from './components/book-details/book-details';
 const routes: Routes = [
   {path: 'public', component: Public, children: [
     {path: 'all-books', component: AllBooks},
-    {path: 'book-details', component: BookDetails}
+    {path: 'book-details/:bookId', component: BookDetails}
   ] }
 ];
 
