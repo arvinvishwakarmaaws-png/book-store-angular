@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './user.scss',
 })
 export class User {
-
+  deleteBook: number = 100; // Example book ID to delete, you can replace it with dynamic data
+  userId: number = 1; // Example user ID, you can replace it with dynamic data
 }

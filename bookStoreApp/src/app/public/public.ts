@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './public.scss',
 })
 export class Public {
-
+  bookId: number = 100; // Example book ID, you can replace it with dynamic data
 }

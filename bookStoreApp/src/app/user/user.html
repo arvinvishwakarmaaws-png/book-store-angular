@@ -1,1 +1,3 @@
+<a routerLink="/user/{{userId}}/delete-book/{{deleteBook}}">Delete Book</a>
+<a [routerLink]="['/user', userId, 'delete-book', deleteBook]">Delete Book</a>
 <router-outlet></router-outlet>
