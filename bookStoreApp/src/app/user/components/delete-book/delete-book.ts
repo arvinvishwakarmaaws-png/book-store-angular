@@ -15,9 +15,8 @@ export class DeleteBook implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   public ngOnInit(): void {
-    this.route.params.subscribe((params) =>{
-      this.bookId = params['bookId'];
-      this.authorName = params['authorName'];
+    this.route.parent?.params.subscribe((params) =>{
+      this.userId = params['userId'];
     });
   }
 
