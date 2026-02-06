@@ -10,7 +10,7 @@ const routes: Routes = [
     component: User,
     children: [
       { path: 'add-book', component: AddBook },
-      { path: 'delete-book/:bookId', component: DeleteBook },
+      { path: 'delete-book/:bookId/author/:authorName', component: DeleteBook },
     ],
   },
 ];
